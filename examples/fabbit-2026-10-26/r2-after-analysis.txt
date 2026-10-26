@@ -1,0 +1,28 @@
+r2-after-45s.csv: samples 4498416  duration 44.984 s  1 ms bins 44984
+phase C drops at: 15.942 42.610 s
+
+=== cycle 0: drop to floor at 15.942 s; search [10.342, 15.942) ===
+LED-off level ~32.081 mA, LED-on level ~35.842 mA, step 3.761 mA, thr 33.962
+first rise inferred from pixel-off transition at 10.961 s
+phase B window [10.961, 15.961) s: MEAN 34.027 mA  (min 28.287 max 44.315, 500000 samples)
+LED on  durations (ms): 254 252 252 250 249 249 253 252 253 252  -> mean 251.6 min 249 max 254
+LED off durations (ms): 250 250 251 253 253 252 248 249 250  -> mean 250.7 min 248 max 253
+rise-to-rise period (ms): 504 502 503 503 502 501 501 501 503  -> mean 502.2 min 501 max 504
+blinks 10, span rise1->fall10 4772 ms (nominal 4750); extra rises inside window: 0
+plateau means: LED-on 35.689 mA, LED-off 32.352 mA; LED-on last fall -> floor drop 0.209 s
+phase C floor (2 s after drop+0.1 s): 27.393 mA
+
+=== cycle 1: drop to floor at 42.610 s; search [37.010, 42.610) ===
+LED-off level ~32.051 mA, LED-on level ~35.812 mA, step 3.761 mA, thr 33.931
+first rise inferred from pixel-off transition at 37.633 s
+phase B window [37.633, 42.633) s: MEAN 33.987 mA  (min 28.089 max 44.577, 500000 samples)
+LED on  durations (ms): 254 253 253 252 252 250 250 249 253 253  -> mean 251.9 min 249 max 254
+LED off durations (ms): 247 248 250 250 251 252 253 252 248  -> mean 250.1 min 247 max 253
+rise-to-rise period (ms): 501 501 503 502 503 502 503 501 501  -> mean 501.9 min 501 max 503
+blinks 10, span rise1->fall10 4770 ms (nominal 4750); extra rises inside window: 0
+plateau means: LED-on 35.652 mA, LED-off 32.308 mA; LED-on last fall -> floor drop 0.207 s
+phase C floor (2 s after drop+0.1 s): 27.350 mA
+
+SUMMARY (window start s, phase B mean mA, on ms, off ms, period ms):
+  10.961  34.027  251.600  250.667  502.222
+  37.633  33.987  251.900  250.111  501.889

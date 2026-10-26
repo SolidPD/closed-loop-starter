@@ -1,0 +1,6 @@
+captures/**/*.csv
+captures/**/*.sal
+tools/ppk2-hold.status
+tools/ppk2-hold.stop
+__pycache__/
+build/

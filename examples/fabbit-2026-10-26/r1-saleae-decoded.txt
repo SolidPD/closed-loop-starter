@@ -1,0 +1,19 @@
+pulses=362 frames=17
+frame  0  t= 10.914431 s  dt=    0.000 ms  BAD(1 bits)  pulse min/max 66514.75/66514.75 us
+frame  1  t= 10.981235 s  dt=   66.804 ms  G00 R00 B00  pulse min/max 0.25/0.25 us
+frame  2  t= 10.986236 s  dt=    5.001 ms  G00 R40 B00  pulse min/max 0.25/0.75 us
+frame  3  t= 11.486690 s  dt=  500.454 ms  G40 R00 B00  pulse min/max 0.25/0.75 us
+frame  4  t= 11.569071 s  dt=   82.382 ms  BAD(1 bits)  pulse min/max 5288125.00/5288125.00 us
+frame  5  t= 16.857486 s  dt= 5288.415 ms  G00 R00 B00  pulse min/max 0.25/0.25 us
+frame  6  t= 16.862487 s  dt=    5.001 ms  G00 R40 B00  pulse min/max 0.25/0.75 us
+frame  7  t= 17.362945 s  dt=  500.459 ms  G40 R00 B00  pulse min/max 0.25/0.75 us
+frame  8  t= 17.863403 s  dt=  500.458 ms  G00 R00 B40  pulse min/max 0.25/0.75 us
+frame  9  t= 18.363864 s  dt=  500.461 ms  G30 R30 B30  pulse min/max 0.25/0.75 us
+frame 10  t= 18.864323 s  dt=  500.459 ms  G00 R40 B40  pulse min/max 0.25/1.00 us
+frame 11  t= 19.364783 s  dt=  500.460 ms  G00 R40 B00  pulse min/max 0.25/0.75 us
+frame 12  t= 19.865241 s  dt=  500.458 ms  G40 R00 B00  pulse min/max 0.25/0.75 us
+frame 13  t= 20.365701 s  dt=  500.460 ms  G00 R00 B40  pulse min/max 0.25/0.75 us
+frame 14  t= 20.866162 s  dt=  500.461 ms  G30 R30 B30  pulse min/max 0.25/0.75 us
+frame 15  t= 21.366623 s  dt=  500.462 ms  G00 R40 B40  pulse min/max 0.25/1.00 us
+frame 16  t= 21.867080 s  dt=  500.457 ms  G00 R00 B00  pulse min/max 0.25/0.25 us
+interval check 500 ms +/- 5 ms on frames 2..16: FAIL [(2, 5.001), (4, 82.382), (5, 5288.415), (6, 5.001)]
