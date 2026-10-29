@@ -85,7 +85,9 @@ jq -r .cliApiToken ~/.hapi/settings.json
    the CLI Harness.
 4. Send it, and read the answer:
 
-> Read AGENTS.md and BENCH.md, then tell me what you need from me to close a loop on my board
+```text
+Read AGENTS.md and BENCH.md, then tell me what you need from me to close a loop on my board
+```
 
 <details>
 <summary><b>No Claude plan? Five routes, ranked</b></summary>
@@ -143,7 +145,9 @@ For Gemini CLI, add the same URL as an HTTP MCP server in its settings.
 firmware toggles, and ground to ground. Back on **Chat**, send it; it lists your Logic, captures, and says
 what channel 0 did:
 
-> List my Saleae devices, then capture two seconds on channel 0 and tell me what you see
+```text
+List my Saleae devices, then capture two seconds on channel 0 and tell me what you see
+```
 
 ### 4. Connect the Power Profiler &nbsp;<sub><a href="https://hapimatic.com/talks/closing-the-loop-ese5180/tutorial.html#step-4"><img src="assets/icons/tutorial.svg" width="14" height="14" alt=""> on the tutorial page</a></sub>
 
@@ -171,7 +175,9 @@ Plug in its USB and check it is seen: it prints a port, such as `['COM6']` (Mac:
 First fill in the **Power** line in [`AGENTS.md`](AGENTS.md): source mode at 3600 mV (DK, XIAO) or ampere
 mode (Nucleo). The agent asks before it powers the board. Then, back on **Chat**:
 
-> Measure my board through the PPK2 for ten seconds, save it to current.csv, and give me the average and the peak
+```text
+Measure my board through the PPK2 for ten seconds, save it to current.csv, and give me the average and the peak
+```
 
 #### Put the PPK2 on your board &nbsp;<sub><a href="https://hapimatic.com/talks/closing-the-loop-ese5180/tutorial.html#your-boards"><img src="assets/icons/tutorial.svg" width="14" height="14" alt=""> with photos</a></sub>
 
